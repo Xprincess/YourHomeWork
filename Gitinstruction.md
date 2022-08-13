@@ -15,11 +15,17 @@ __*Instruction for me*__
 2. After you save the files you add the file.s
 3. Create commit
 
-Instruction Branch
+**Instruction Branch**
 
 * *git branch* - check existing branches
 * *git branch <name>* - create a new branch
 * *git merge <branch name>* -  merge 2 branches
+
+**Seminar 3 - remote repository**
+
+* *git push* - moves the changes (from the master branch) to remote repository
+* *git pull* - get the changes from the remote repository to local
+
 
 This line has been added from the local repository 
   
