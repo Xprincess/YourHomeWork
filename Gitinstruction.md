@@ -22,6 +22,22 @@ __*Instruction for me*__
 * *git merge <branch name>* -  merge 2 branches
 
 **Seminar 3 - remote repository**
+Create a remote repository in github
+
+or create a new repository on the command line
+echo "# Check" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Xprincess/Check.git
+git push -u origin main
+
+or push an existing repository from the command line
+git remote add origin https://github.com/Xprincess/Check.git
+git branch -M main
+git push -u origin main
+
 
 * *git push* - moves the changes (from the master branch) to remote repository
 * *git pull* - get the changes from the remote repository to local
